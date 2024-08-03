@@ -21,6 +21,8 @@ $result = mysqli_query($conn, $sql);
 // to check db is created or not 
 if ($result) {
     echo "The db was created successfully! <br>";
-} else {
     echo "The db was not created successfully because of this error ---->" . mysqli_error($conn);
 }
+
+// create the table
+
