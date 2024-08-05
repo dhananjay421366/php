@@ -24,5 +24,5 @@ if ($result) {
     echo "The db was not created successfully because of this error ---->" . mysqli_error($conn);
 }
 
-// create the table
 
+// create the table
