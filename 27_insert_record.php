@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 }
 echo "<br> Connected successfully";
 
-
+ 
 
 // create the table in the db
 /*
